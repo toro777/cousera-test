@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
 body {
 	font-size: 16px;
 	color: #fff;
@@ -24,4 +29,75 @@ body {
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 0.75;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #e7e7e7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  /* End Header */
+}
+
+/** PAGE HEADING **/
+#main-content {
+	background-color: white;
+}
+.page-heading {
+	background-color: white;
+}
+.page-heading h2 {
+	color: black;
+	text-align: center;
+}
+.section-really-tall {
+	position: relative;
+	background-position: center;
+	background-color: #999966;
+	height: 1000px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
